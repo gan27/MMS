@@ -1,20 +1,19 @@
 language: java 
-2 
  
-3 
  
-4 
  
-5 deploy: 
-6    edge: true 
-7    sudo: false 
-8    provider: cloudfoundry 
-9    username: malpps27@gmail.com 
-10    password: verizon123 
-11    api: https://api.run.pivotal.io 
-12    organization: oneV 
-13    space: development 
-14    app: test 
-15    on: 
-16    repo: gan27/MMS 
-17    skip_cleanup: true 
+ 
+ 
+ deploy: 
+    edge: true 
+    sudo: false 
+    provider: cloudfoundry 
+    username: malpps27@gmail.com 
+    password: verizon123 
+    api: https://api.run.pivotal.io 
+    organization: oneV 
+    space: development 
+    app: test 
+    on: 
+    repo: gan27/MMS 
+    skip_cleanup: true 

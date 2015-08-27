@@ -3,7 +3,7 @@ language: java
  
 deploy: 
     edge: true 
-    sudo: false 
+    sudo: required 
     provider: cloudfoundry 
     username: malpps27@gmail.com 
     password: verizon123 
